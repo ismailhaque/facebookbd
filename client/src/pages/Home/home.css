@@ -1,0 +1,17 @@
+.container-timeline{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.container-timeline .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-timeline .row .col{
+    margin-top: 20px;
+    width: 570px;
+    box-shadow: 1px 3px 5px #e9e9e9;
+    padding: 10px 20px;
+}
