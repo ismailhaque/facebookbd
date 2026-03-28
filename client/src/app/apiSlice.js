@@ -2,7 +2,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
 import { logOut, selectCurrentToken, setCredentials } from "../features/Auth/AuthSlice"
 
 const baseQuery = fetchBaseQuery({
-    baseUrl : "http://localhost:5050/",
+    baseUrl : "https://facebookbd.onrender.com/",
     prepareHeaders : (Headers, { getState }) => {
         const token = selectCurrentToken(getState())
 
